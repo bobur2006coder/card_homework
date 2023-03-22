@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+a{
+    list-style: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    
+}
+
+.list{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.header-img{
+   width: 100%;
+   margin-bottom: 10px;
+}
+
+.card-info{
+    text-transform: capitalize;
+}
+
+.line{
+    width: 30px;
+    height: 5px;
+    background-color: black;
+}
+
+.card-text{
+    margin: 15px 0px;
+}
+.btn-header{
+    color: chocolate;
+    text-transform: capitalize;
+    border: none;
+    background-color: transparent;
+}
+
+.grafic{
+    background-color: antiquewhite;
+    padding: 0px 0px 10px;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+.card-info , .line , .card-text , .btn-header{
+    margin-left: 10px;
+}
+.card{
+    padding: 21px 23px;
+    margin-top: 20px;
+    background-color: antiquewhite;
+}
+.card button{
+    border: none;
+    background-color: red;
+    padding: 5px 10px;
+}
+
+footer{
+    margin: 100px auto;
+}
+
+
+
+/* responsive - qismi */
+
+@media (max-width:475px) {
+    nav{
+        width: 470px;
+    }
+
+   
+    
+}
