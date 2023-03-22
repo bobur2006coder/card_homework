@@ -19,12 +19,16 @@ a{
     gap: 15px;
 }
 
-.header-img{
+.card-img-top{
    width: 100%;
-   margin-bottom: 10px;
+   
 }
 
-.card-info{
+.card{
+    padding: 0;
+}
+
+.card-title{
     text-transform: capitalize;
 }
 
@@ -69,6 +73,16 @@ footer{
     margin: 100px auto;
 }
 
+.card-img-top:hover{
+    position: relative;
+    right: 23px;
+    top: -22px;
+    
+    width: 119%;
+    transition: 1.s ease;
+
+}
+
 
 
 /* responsive - qismi */
@@ -77,6 +91,8 @@ footer{
     nav{
         width: 470px;
     }
+
+
 
    
     
